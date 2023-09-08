@@ -1,0 +1,39 @@
+{
+  "name": "minish-css",
+  "version": "1.0.0",
+  "homepage": "https://minishcss.io",
+  "author": {
+    "name": "Gustavo Nunes Pereira",
+    "email": "gnunes1530@gmail.com",
+    "url": ""
+  },
+  "description": "A Minish, light weigh modern CSS framework based upon Flexbox",
+  "main": "minish.sass",
+  "unpkg": "css/minish.css",
+  "style": "css/minish.min.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMindy/minishcss.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework"
+  ],
+  "files": [
+    "css",
+    "sass",
+    "minish.sass",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
