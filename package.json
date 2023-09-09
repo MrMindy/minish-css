@@ -16,7 +16,10 @@
     "url": "git+https://github.com/MrMindy/minishcss.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build",
+    "build-css": "gulp build-css",
+    "build-minify": "gulp build-minify",
+    "watch":  "gulp watch"
   },
   "license": "MIT",
   "keywords": [
@@ -34,6 +37,13 @@
     "README.md"
   ],
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "sass": "^1.66.1"
   }
 }
